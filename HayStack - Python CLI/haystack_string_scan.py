@@ -30,6 +30,7 @@ def printErrorMessage(errorFlag):
         print "Invalid argument passed to printErrorMessage() function."
 
 ###Application Code###
+#Another comment
 #Variable declarations
 fileName = ""
 fileObject = ""
